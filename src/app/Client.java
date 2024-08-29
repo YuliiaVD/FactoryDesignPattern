@@ -8,7 +8,7 @@ public class Client {
 
         Client client = new Client();
         Scanner input = new Scanner(System.in);
-        System.out.println("Please inter your type: ");
+        System.out.println("Please enter your type: ");
         client.run(input.nextLine());
 
     }
